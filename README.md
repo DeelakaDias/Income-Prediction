@@ -1,2 +1,2 @@
 # Income-Prediction
-Developed a simple classification problem to predict whether income exceeds
+A Comparative Study of Naïve Bayes and Random Forest Classification Models
