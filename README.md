@@ -18,19 +18,37 @@
 </ul>
 </p>
 
-Data Exploration
-Box plots were generated to visualize the distribution of each feature with respect to the income level.
-A correlation heatmap was created to identify relationships between numerical features and the target variable.
-Model Building
-Two machine learning models were trained and evaluated: Naive Bayes Classifier and Random Forest Classifier.
-Randomized Search CV was used to perform hyperparameter tuning for the Random Forest Classifier to improve its performance.
-The accuracy, precision, recall, and F1 score were calculated to evaluate the models' performance on the test dataset.
-Results
-Both models achieved high accuracy on the test dataset, with the Random Forest Classifier slightly outperforming the Naive Bayes Classifier.
-The best Random Forest model achieved an accuracy of XX%, precision of XX%, recall of XX%, and F1 score of XX%.
-Requirements
-pandas
-seaborn
-matplotlib
-scikit-learn
-imbalanced-learn
+<h2>Data Exploration</h2>
+
+<p><ul>
+    <li>Box plots were generated to visualize the distribution of each feature with respect to the income level.</li>
+    <li>A correlation heatmap was created to identify relationships between numerical features and the target variable.</li>
+</ul>
+</p>
+
+<h2>Model Building</h2>
+<p>
+    <ul>
+        <li>Two machine learning models were trained and evaluated: Naive Bayes Classifier and Random Forest Classifier.</li>
+    <li>Randomized Search CV was used to perform hyperparameter tuning for the Random Forest Classifier to improve its performance.</li>
+    <li>The accuracy, precision, recall, and F1 score were calculated to evaluate the models' performance on the test dataset.</li>
+    </ul>
+</p>
+
+<h2>Results</h2>
+<p>
+    <ul>
+        <li>Both models achieved high accuracy on the test dataset, with the Random Forest Classifier slightly outperforming the Naive Bayes Classifier.</li>
+        <li>The best Random Forest model achieved an accuracy of 89.38608588140188%, precision of 86.2549625055139%, recall of 93.55085637738015%, and F1 score of 89.75488846047921%.</li>
+    </ul>
+</p>
+
+<h2>Requirements</h2>
+<p>
+    <ul>
+    <li>pandas</li>
+    <li>seabor</li>
+    <li>matplotli</li>
+    <li>imbalanced-learn</li>
+    </ul>
+</p>
